@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(255, 250, 245);
+}
+
+#nav-menu {
+    float:right
+}
+
+#title h1 {
+    font-family: 'Newsreader', serif;
+    color:rgb(114, 79, 51);
+    text-align: center;
+}
