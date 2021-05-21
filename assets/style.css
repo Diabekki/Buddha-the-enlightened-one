@@ -2,18 +2,18 @@ body {
     background-color: rgb(255, 250, 245);
 }
 
-.topnav {
-    float: right;
-    color:rgb(255, 250, 245)
-    font-family: 'Poppins', serif;
-}
 
 #title h1 {
     background-color: black;
     font-family: 'Newsreader', serif;
-    color:rgb(114, 79, 51);
+    color:rgb(255, 250, 245);
     text-align: center;
     padding: 30px;
+}
+
+#nav-menu {
+    float: right;
+    color: cornsilk;
 }
 
 /* Nav-bar Image */
