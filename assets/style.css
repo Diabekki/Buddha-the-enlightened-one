@@ -4,28 +4,39 @@ body {
 
 
 #title h1 {
-    background-color: black;
     font-family: 'Newsreader', serif;
-    color:rgb(255, 230, 166);
-    text-align: center;
-    padding: 30px;
+    color:rgb(34, 30, 28);
+    float: left;
+    margin-left: 30px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
 
-.nav-menu {
-    color: cornsilk;
-    float: right;
-}
+/* nav-bar Image */
 
-/* Nav-bar Image */
 .nav-image {
     background-image: url(../assets/images/buddha-nav-image.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-    height: 300px;
-    padding-top: 10px;
+    min-height: 300px;
 } 
+
+
+
+/* navbar menu */
+
+.nav-menu a {
+    color:rgb(34, 30, 28);
+    float: right;
+}
+
+a:hover {
+    color: darkkhaki;
+}
+
+
 
 #buddhism-overview {
     font-family: 'Poppins', serif;
@@ -42,15 +53,18 @@ body {
 }
 
 .social-websites > li {
-    display: inline;
+     display: inline-block;
 }
 
 .social-websites {
-    font-size: 150%;
+    font-size: 140%;
     margin: 1%;
-    padding: 2%
+    padding: 25px;
 }
 
 .home-title {
     color: goldenrod;
+    text-transform: uppercase;
+    letter-spacing: 4px;
 }
+
