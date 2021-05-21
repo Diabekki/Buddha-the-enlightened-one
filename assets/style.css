@@ -5,7 +5,7 @@ body {
 
 #title h1 {
     font-family: 'Newsreader', serif;
-    color:rgb(34, 30, 28);
+    color:rgb(255, 254, 235);
     float: left;
     margin-left: 30px;
     text-transform: uppercase;
@@ -27,22 +27,24 @@ body {
 
 /* navbar menu */
 
-.nav-menu a {
-    color:rgb(34, 30, 28);
+.nav-menu li {
+    color:rgb(255, 254, 235);
     float: right;
+    padding-right: 20px;
+    padding-top: 20px;
 }
 
 a:hover {
     color: darkkhaki;
 }
 
-
-
 #buddhism-overview {
     font-family: 'Poppins', serif;
     width: 50%; 
     padding-left: 25%;
     text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
  
 /* image on left side of synopsis paragrapgh */
@@ -54,17 +56,27 @@ a:hover {
 
 .social-websites > li {
      display: inline-block;
+     padding-left: auto;
 }
 
 .social-websites {
-    font-size: 140%;
-    margin: 1%;
+    font-size: 200%;
     padding: 25px;
 }
 
 .home-title {
+    font-family: 'Newsreader', serif;
     color: goldenrod;
     text-transform: uppercase;
     letter-spacing: 4px;
+    font-size: 6vw;
 }
 
+.main-footer {
+    background-color: black;
+    text-align: center;
+    height: fit-content;
+    position: static;
+    width: 100%;
+    margin: auto;
+}
