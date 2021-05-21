@@ -38,6 +38,16 @@ a:hover {
     color: darkkhaki;
 }
 
+/* information synopsis of home page */
+
+.home-title {
+    font-family: 'Newsreader', serif;
+    color: goldenrod;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 5vw;
+}
+
 #buddhism-overview {
     font-family: 'Poppins', serif;
     width: 50%; 
@@ -48,18 +58,30 @@ a:hover {
 }
  
 /* image on left side of synopsis paragrapgh */
+
 .buddhist-sym-left {
-    background-image: url('../assets/images/group-of-buddhist-statues.jpg');
-    height: 300px;
-    width: 300px;
+    background-image: url('../assets/images/buddha-Langza-India-statue.jpg');
+    height: 200px;
+    width: 200px;
     float: left;
-    border-style: dotted;
+    border-style: hidden;
     border-color: goldenrod;
     border-width: 2px;
     border-radius: 50%;
-    margin-left: -200px;
-    margin-bottom: 800px;
 }
+
+.buddhist-sym-right {
+    background-image: url('../assets/images/group-of-buddhist-statues.jpg');
+    height: 200px;
+    width: 200px;
+    float: right;
+    border-style: hidden;
+    border-color: goldenrod;
+    border-width: 2px;
+    border-radius: 50%;
+}
+
+/* solcial media links */
 
 .social-websites > li {
      display: inline-block;
@@ -71,13 +93,6 @@ a:hover {
     padding: 25px;
 }
 
-.home-title {
-    font-family: 'Newsreader', serif;
-    color: goldenrod;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    font-size: 6vw;
-}
 
 .main-footer {
     background-color: black;
@@ -86,4 +101,21 @@ a:hover {
     position: static;
     width: 100%;
     margin: auto;
+}
+
+
+/* list heading style format for precepts */
+
+.list-style {
+    font-family: 'Newsreader', serif;
+    color: goldenrod;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 2vw;
+    width: 50%;
+}
+
+ol p {
+    width: 50%;
+    font-family: 'Poppins', serif;
 }
