@@ -26,3 +26,11 @@ body {
     height: 300px;
     padding-top: 10px;
 } 
+
+#buddhism-overview {
+    background-image: url(../assets/images/buddha-symbol.png);
+    height: 700px;
+    background-repeat: no-repeat;
+    padding: 40px;
+    float: left;
+}
