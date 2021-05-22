@@ -126,6 +126,8 @@ p {
     list-style-type: none;
 }
 
+/* ordered list paragraph text styling */
+
 ol p {
     width: 50%;
     font-family: 'Poppins', serif;
@@ -152,6 +154,8 @@ ol p {
     padding-top: 5px;
     padding-bottom: 10px;
 }
+
+/* style for hr lines */
 
 hr {
     height: 0;
