@@ -45,7 +45,7 @@ a:hover {
     font-family: 'Newsreader', serif;
     color: goldenrod;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     font-size: 5vw;
 }
 
@@ -145,7 +145,7 @@ ol p {
 .precept-title {
     font-family: 'Newsreader', serif;
     font-size: 4vw;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     color: goldenrod;
     text-transform: uppercase;
     text-align: center;
