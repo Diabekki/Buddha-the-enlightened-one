@@ -56,6 +56,11 @@ a:hover {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 100px;
+    letter-spacing: 1px;
+}
+
+p {
+    color: rgb(34, 34, 34);
 }
  
 /* image on left side of synopsis paragrapgh */
@@ -86,7 +91,6 @@ a:hover {
 
 .social-websites > li {
      display: inline-block;
-     padding-left: auto;
 }
 
 .social-websites {
@@ -132,23 +136,27 @@ ol p {
     padding-top: 50px;
     padding-bottom: 100px;
     color: rgb(7, 7, 7);
+    letter-spacing: 1px;
     
 }
 
 .precept-title {
     font-family: 'Newsreader', serif;
-    font-size: 5vw;
-    letter-spacing: 4px;
+    font-size: 4vw;
+    letter-spacing: 2px;
     color: goldenrod;
     text-transform: uppercase;
     text-align: center;
     width: 50%; 
     padding-left: 25%;
-    text-align: center;
     padding-top: 5px;
     padding-bottom: 10px;
 }
 
-p {
-    color: rgb(34, 34, 34);
+hr {
+    height: 0;
+    border-style: solid;
+    border-top: 2px solid rgb(204, 153, 13);
+    margin: 1em 0;
+    padding: 0;
 }
