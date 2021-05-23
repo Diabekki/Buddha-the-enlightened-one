@@ -35,12 +35,22 @@ body {
     padding-top: 20px;
     list-style-type: none;
     text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 20px;
 }
+
+a {
+    text-decoration: none;
+}
+
 a:hover {
     color: darkkhaki;
+    text-decoration: none;
 }
+
 .active {
-    color: rgb(185, 77, 0);
+    color: rgb(102, 79, 63);
+    text-decoration: none;
 }
 
 /* information synopsis of home page */
@@ -60,7 +70,7 @@ a:hover {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 100px;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 
 p {
@@ -105,39 +115,38 @@ p {
     width: 50%;
     padding-left: 25%;
     text-align: center;
-    padding-top: 1px;
+    padding-top: 100px;
     padding-bottom: 5px;
-    text-align: center;
 }
 
 .fa-om {
     float: left;
     padding-left: 15%;
     align-items: center;
+    padding-left: 45%;
 }
 
 .fa-dharmachakra{
    float: right;
    display: block;
    align-items: center;
-   padding-right: 15%;
-
-
+   padding-right: 45%;
 }
 
-/* ordered list paragraph text styling */
+/* paragraph text styling */
 
  p {
     width: 50%;
     font-family: 'Poppins', serif;
-    padding-left: 150px;
+    padding-left: 2px;
     width: 50%; 
     padding-left: 25%;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 100px;
     color: rgb(7, 7, 7);
-    letter-spacing: 1px;
+    letter-spacing: 2px;
+    font-size: 20px;
     
 }
 
@@ -150,7 +159,7 @@ p {
     text-align: center;
     width: 50%; 
     padding-left: 25%;
-    padding-top: 5px;
+    padding-top: 50px;
     padding-bottom: 10px;
 }
 
@@ -182,6 +191,8 @@ hr {
 
 .social-websites > li {
     display: inline-block;
+    letter-spacing: 44px;
+    padding-top: 30px;
 }
 
 .social-websites {
@@ -190,19 +201,19 @@ hr {
 }
 
 .fa-facebook {
-    color: blue;
+    color: white;
 }
 
 .fa-twitter-square {
-    color: yellow;
+    color: white;
 }
 
 .fa-youtube {
-    color: red;
+    color: white;
 }
 
 .fa-instagram {
-    color: orangered;
+    color: white;
 }
 
 .fa-wikipedia-w {
@@ -218,6 +229,7 @@ hr {
    position: static;
    width: 100%;
    margin: auto;
+   height: 150px;
 }
 
 
