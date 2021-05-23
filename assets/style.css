@@ -5,7 +5,7 @@ body {
 
 #title h1 {
     font-family: 'Newsreader', serif;
-    color:rgb(255, 227, 176);
+    color: goldenrod;
     float: left;
     margin-left: 30px;
     text-transform: uppercase;
@@ -21,13 +21,15 @@ body {
     background-repeat: no-repeat;
     width: 100%;
     min-height: 300px;
-} 
+    display: flex;
+}
+
 
 
 /* navbar menu */
 
-.nav-menu li {
-    color:whitesmoke;
+#nav-menu li {
+    color: rgb(102, 79, 63);
     float: right;
     padding-right: 20px;
     padding-top: 20px;
@@ -36,6 +38,9 @@ body {
 }
 a:hover {
     color: darkkhaki;
+}
+.active {
+    color: rgb(185, 77, 0);
 }
 
 /* information synopsis of home page */
@@ -65,9 +70,10 @@ p {
 /* image on left side of synopsis paragrapgh */
 
 .buddhist-sym-left {
-    background-image: url('../assets/images/buddha-Langza-India-statue.jpg');
-    height: 200px;
-    width: 200px;
+    background-image: url('../assets/images/buddhas-sitting-in-row.jpeg');
+    height: 300px;
+    width: 300px;
+    background-attachment: fixed;
     float: left;
     border-style: hidden;
     border-width: 2px;
@@ -77,8 +83,9 @@ p {
 
 .buddhist-sym-right {
     background-image: url('../assets/images/group-of-buddhist-statues.jpg');
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
+    background-attachment: fixed;
     float: right;
     border-style: hidden;
     border-width: 2px;
@@ -89,7 +96,7 @@ p {
 
 /* list heading style format for precepts */
 
-.list-style {
+.precept-list-title {
     font-family: 'Newsreader', serif;
     color: goldenrod;
     text-transform: uppercase;
@@ -101,12 +108,26 @@ p {
     padding-top: 1px;
     padding-bottom: 5px;
     text-align: center;
-    list-style-type: none;
+}
+
+.fa-om {
+    float: left;
+    padding-left: 15%;
+    align-items: center;
+}
+
+.fa-dharmachakra{
+   float: right;
+   display: block;
+   align-items: center;
+   padding-right: 15%;
+
+
 }
 
 /* ordered list paragraph text styling */
 
-ol p {
+ p {
     width: 50%;
     font-family: 'Poppins', serif;
     padding-left: 150px;
