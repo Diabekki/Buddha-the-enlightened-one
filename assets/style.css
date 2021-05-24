@@ -265,10 +265,10 @@ a:hover {
     background-color: goldenrod;
     color: white;
 }
-
+/* newsletter styling* */
 #newsletter-title {
     font-family: 'Newsletter', serif;
-    font-size: 200px;
+    font-size: 150px;
     text-align: center;
     color: goldenrod;
     padding-right: 50px;
