@@ -73,7 +73,7 @@ a:hover {
     letter-spacing: 2px;
 }
 
-p {
+.home-paragraph {
     color: rgb(34, 34, 34);
 }
  
@@ -121,7 +121,7 @@ p {
     padding-left: 25%;
     text-align: center;
     padding-top: 50px;
-    padding-bottom: 5px;
+    padding-bottom: 1px;
 }
 
 .fa-om {
@@ -139,16 +139,16 @@ p {
 
 /* paragraph text styling */
 
- p {
+ .precepts-paragraph {
     width: 50%;
     font-family: 'Poppins', serif;
     padding-left: 2px;
     width: 50%; 
     padding-left: 25%;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 0px;
     padding-bottom: 100px;
-    color: rgb(7, 7, 7);
+    color: rgb(34, 34, 34);
     letter-spacing: 2px;
     font-size: 20px;
     
@@ -168,6 +168,7 @@ p {
     padding-top: 3px;
     padding-bottom: 1px;
 }
+
 
 /* social media links */
 
@@ -213,5 +214,20 @@ p {
    margin: auto;
    height: 150px;
 }
+/* Newsletter form styling */
 
+#form-title {
+    font-family: 'Newsreader', serif;
+    letter-spacing: 2px;
+    color: goldenrod;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.form-paragraph {
+    font-family: 'Poppins', serif;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 0;
+}
 
