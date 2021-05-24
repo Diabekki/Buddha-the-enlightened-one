@@ -63,26 +63,13 @@ a:hover {
     font-size: 3vw;
     text-align: center;
 }
-
-#buddhism-overview {
-    font-family: 'Poppins', serif;
-    width: 50%; 
-    padding-left: 25%;
-    padding-top: 50px;
-    padding-bottom: 100px;
-    letter-spacing: 2px;
-}
-
-.home-paragraph {
-    color: rgb(34, 34, 34);
-}
  
-/* image on left side of synopsis paragrapgh */
+/* image for homepage */
 
 .buddhist-overview-image {
     background-image: url('../assets/images/buddhas-sitting-in-row.jpeg');
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 400px;
     background-attachment: fixed;
     border-style: hidden;
     border-width: 2px;
@@ -91,9 +78,30 @@ a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+}
 
-    
+#buddhism-overview {
+    font-family: 'Poppins', serif;
+    width: 50%; 
+    padding-left: 25%;
+    padding-top: 2px;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+}
+
+.home-paragraph {
+    color: rgb(34, 34, 34);
+    font-size: 26px;
+    padding-top: 10%;
+    width: 70%;
+    padding-left: 15%;
+}
+ /*video for homepage*/
+
+.home-video {
+    padding-left: 30%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .precept-title {
@@ -150,7 +158,7 @@ a:hover {
     padding-bottom: 100px;
     color: rgb(34, 34, 34);
     letter-spacing: 2px;
-    font-size: 20px;
+    font-size: 26px;
     
 }
 
@@ -266,26 +274,38 @@ a:hover {
     color: white;
 }
 /* newsletter styling* */
+
+#newsletter-image {
+    background-image: url('../assets/images/sky.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #newsletter-title {
     font-family: 'Newsletter', serif;
     font-size: 150px;
     text-align: center;
-    color: goldenrod;
+    color: rgb(255, 241, 205);
     padding-right: 50px;
+    margin-right: 23%;
+    margin-left: 20%;;
+    outline-style: solid;
 }
 
 #newsletter-paragraph {
     font-family: 'Poppins', serif;
+    color: rgb(255, 242, 224);
     width: 50%; 
     padding-left: 25%;
     padding-bottom: 50px;
     letter-spacing: 2px;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .namaste {
    text-align: center;
    font-size: 100px;
-   color: rgb(153, 122, 55);
-   margin-right: 5%;
+   color: rgb(255, 241, 205);
+   margin-right: 30%;
+   margin-left: 20%;;
 }
