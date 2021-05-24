@@ -175,7 +175,7 @@ a:hover {
 .social-websites > li {
     display: inline-block;
     letter-spacing: 44px;
-    padding-top: 30px;
+    padding-top: 10px;
 }
 
 .social-websites {
@@ -208,11 +208,9 @@ a:hover {
 .main-footer {
    background-color: black;
    text-align: center;
-   height: fit-content;
    position: static;
    width: 100%;
-   margin: auto;
-   height: 150px;
+   height: 350px;
 }
 /* Newsletter form styling */
 
@@ -222,12 +220,48 @@ a:hover {
     color: goldenrod;
     text-transform: uppercase;
     text-align: center;
+    height: 2px;
 }
 
 .form-paragraph {
     font-family: 'Poppins', serif;
     letter-spacing: 2px;
     text-align: center;
-    padding-top: 0;
+    color: rgb(34, 34, 34);
 }
 
+.form-details {
+    text-align: center;
+    letter-spacing: 2px;
+    color: rgb(255, 255, 255);
+    height: 1px;
+
+}
+
+#fname {
+    height: 10px;
+}
+
+#lname {
+    height: 10px;
+}
+
+#email {
+    height: 10px;
+}
+
+#copyright {
+    text-align: right;
+    color: white;
+    padding-top: 70px;
+    padding-right: 20px;
+}
+
+.button {
+    transition-duration: 0.2s;
+ }
+      
+.button:hover {
+    background-color: goldenrod;
+    color: white;
+}
