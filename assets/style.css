@@ -55,19 +55,19 @@ a:hover {
 
 /* information synopsis of home page */
 
-.home-title {
+#home-title {
     font-family: 'Newsreader', serif;
     color: goldenrod;
     text-transform: uppercase;
     letter-spacing: 3px;
     font-size: 3vw;
+    text-align: center;
 }
 
 #buddhism-overview {
     font-family: 'Poppins', serif;
     width: 50%; 
     padding-left: 25%;
-    text-align: center;
     padding-top: 50px;
     padding-bottom: 100px;
     letter-spacing: 2px;
@@ -79,12 +79,11 @@ p {
  
 /* image on left side of synopsis paragrapgh */
 
-.buddhist-sym-left {
+.buddhist-overview-image {
     background-image: url('../assets/images/buddhas-sitting-in-row.jpeg');
     height: 300px;
     width: 300px;
     background-attachment: fixed;
-    object-position: center top;  
     border-style: hidden;
     border-width: 2px;
     border-radius: 50%;
@@ -93,7 +92,21 @@ p {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+
     
+}
+
+.precept-title {
+    font-family: 'Newsreader', serif;
+    font-size: 3vw;
+    letter-spacing: 3px;
+    color: goldenrod;
+    text-transform: uppercase;
+    text-align: center;
+    width: 50%; 
+    padding-left: 25%;
+    padding-top: 50px;
+    padding-bottom: 70px;
 }
 
 /* list heading style format for precepts */
@@ -107,13 +120,12 @@ p {
     width: 50%;
     padding-left: 25%;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 5px;
 }
 
 .fa-om {
     float: left;
-    padding-left: 15%;
     align-items: center;
     padding-left: 45%;
 }
@@ -142,18 +154,7 @@ p {
     
 }
 
-.precept-title {
-    font-family: 'Newsreader', serif;
-    font-size: 3vw;
-    letter-spacing: 3px;
-    color: goldenrod;
-    text-transform: uppercase;
-    text-align: center;
-    width: 50%; 
-    padding-left: 25%;
-    padding-top: 50px;
-    padding-bottom: 10px;
-}
+
 
 .history-title {
     font-family: 'Newsreader', serif;
@@ -167,17 +168,6 @@ p {
     padding-top: 3px;
     padding-bottom: 1px;
 }
-
-/* style for hr lines in history page */
-
-hr {
-    height: 0;
-    border-style: solid;
-    border-top: 2px solid rgb(204, 153, 13);
-    margin: 1em 0;
-    padding: 0;
-}
-
 
 /* social media links */
 
