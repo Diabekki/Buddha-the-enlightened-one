@@ -75,12 +75,12 @@ a:hover {
     border-width: 2px;
     border-radius: 50%;
     max-width: 100%;
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
 }
 
-#buddhism-overview {
+.container {
     font-family: 'Poppins', serif;
     width: 50%; 
     padding-left: 25%;
@@ -99,10 +99,10 @@ a:hover {
 }
  /*video for homepage*/
 
-.home-video {
-    padding-left: 30%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+#home-video {
+    height: 30rem;
+    width: 50rem;
+    margin: 2vh auto;
 }
 
 .precept-title {
@@ -114,7 +114,7 @@ a:hover {
     text-align: center;
     width: 50%; 
     padding-left: 25%;
-    padding-top: 50px;
+    padding-top: 30px;
     padding-bottom: 70px;
 }
 
@@ -158,7 +158,7 @@ a:hover {
     
 }
 
-
+/*styling for history page*/
 
 .history-title {
     font-family: 'Newsreader', serif;
@@ -171,6 +171,15 @@ a:hover {
     padding-left: 25%;
     padding-top: 3px;
     padding-bottom: 1px;
+}
+
+.history-paragraph {
+    font-family: 'Poppins', serif;
+    color: rgb(34, 34, 34);
+    font-size: 26px;
+    padding-top: 5%;
+    width: 70%;
+    padding-left: 15%;
 }
 
 
@@ -303,5 +312,14 @@ a:hover {
    font-size: 100px;
    color: rgb(255, 241, 205);
    margin-right: 30%;
-   margin-left: 20%;;
+   margin-left: 20%;
+}
+
+/* media queries for tablet */
+
+@media screen and (max-width: 1024px) {
+    .home-paragraph {
+        width: 100%;
+        padding-left: 0;
+    }
 }
