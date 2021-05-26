@@ -263,7 +263,7 @@ a:hover {
     font-family: 'Poppins', serif;
     letter-spacing: 2px;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 .form-details {
@@ -272,6 +272,9 @@ a:hover {
     color: rgb(255, 255, 255);
     height: 1px;
 
+}
+.email-format{
+    display: flex;
 }
 
 #fname {
@@ -284,22 +287,25 @@ a:hover {
 
 #email {
     height: 10px;
+    width: fit-content;
 }
 
 #copyright {
     text-align: right;
     color: white;
-    padding-top: 120px;
+    padding-top: 0px;
     padding-right: 20px;
 }
 
 .button {
     transition-duration: 0.2s;
+    margin: 15px;
+    font-family: 'Poppins', serif;
 }
 
 .button:hover {
     background-color: goldenrod;
-    color: white;
+    color:goldenrod;
 }
 
 /* newsletter styling* */
@@ -314,7 +320,7 @@ a:hover {
     font-family: 'Newsletter', serif;
     font-size: 150px;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     padding-right: 50px;
     margin-right: 23%;
     margin-left: 20%;
@@ -324,22 +330,13 @@ a:hover {
 
 #newsletter-paragraph {
     font-family: 'Poppins', serif;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     width: 50%;
     padding-left: 25%;
     padding-bottom: 50px;
     letter-spacing: 2px;
     font-size: 30px;
 }
-
-#namaste {
-    text-align: center;
-    font-size: 100px;
-    color: rgb(255, 255, 255);
-    margin-right: 30%;
-    margin-left: 20%;
-}
-
 .newsletter-video {
     text-align: center;
 }
@@ -400,18 +397,56 @@ a:hover {
     }
 
     .form-details {
+        border: black;
+        border-style: solid;
+        border-width: 2px;
         height: 22%;
         color: rgb(0, 0, 0);
+        max-width: 80%;
+        margin-bottom: 10px;
     }
 
     #form-title {
-    padding-bottom: 2%;
+        padding-bottom: 2%;
     }
 
     .social-websites {
         font-size: 250%;
         padding-top: 4%;
         margin-left: 4%;
+    }
+
+    .form-format {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 1em;
+        padding: 10%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .email-format{
+        display: flex;   
+        margin: 1em;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 0%;
+        padding-right: 27%;
+    }
+    
+    #email {
+        justify-content: left;
+        height: 20px;
+        margin: 0%;
+        margin-left: 0%;
+        
+    }
+
+    #fname {
+        height: 20px;
+    }
+    
+    #lname {
+        height: 20px;
     }
 
 }
