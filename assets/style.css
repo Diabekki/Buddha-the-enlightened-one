@@ -16,7 +16,9 @@ body {
     float: left;
     margin-left: 30px;
     text-transform: uppercase;
+    padding-top: 5px;
     letter-spacing: 3px;
+    font-size: 3rem;
 }
 
 
@@ -40,12 +42,12 @@ body {
 #nav-menu li {
     color: rgb(102, 79, 63);
     float: right;
-    padding-right: 20px;
-    padding-top: 20px;
+    padding-right: 35px;
+    padding-top: 5px;
     list-style-type: none;
     text-decoration: none;
     letter-spacing: 2px;
-    font-size: 20px;
+    font-size: 2rem;
 }
 
 
@@ -74,6 +76,8 @@ a:hover {
     color: goldenrod;
     text-transform: uppercase;
     letter-spacing: 3px;
+    padding-top: 5%;
+    padding-bottom: 5%;
     font-size: 3vw;
     text-align: center;
 }
@@ -83,16 +87,14 @@ a:hover {
 
 .buddhist-overview-image {
     background-image: url('../assets/images/buddhas-sitting-in-row.jpeg');
-    height: 400px;
-    width: 400px;
+    height: 600px;
+    width: 840px;
     background-attachment: fixed;
     border-style: hidden;
     border-width: 2px;
-    border-radius: 50%;
     max-width: 100%;
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 1%;
 }
 
 .container {
@@ -108,8 +110,10 @@ a:hover {
     color: rgb(34, 34, 34);
     font-size: 26px;
     padding-top: 10%;
-    width: 70%;
-    padding-left: 15%;
+    width: 100%;
+    text-align: left;
+    padding-top: 10%;
+    padding-bottom: 5%;
 }
 
 
@@ -127,6 +131,8 @@ a:hover {
     color: goldenrod;
     text-transform: uppercase;
     letter-spacing: 3px;
+    padding-top: 10%;
+    padding-bottom: 5%;
     font-size: 3vw;
     text-align: center;
 }
@@ -138,12 +144,10 @@ a:hover {
     color: goldenrod;
     text-transform: uppercase;
     letter-spacing: 3px;
+    padding-top: 10%;
+    padding-bottom: 5%;
     font-size: 2vw;
-    width: 50%;
-    padding-left: 25%;
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 1px;
 }
 
 .fa-om {
@@ -166,11 +170,11 @@ a:hover {
 .precepts-paragraph {
     font-family: 'Poppins', serif;
     color: rgb(34, 34, 34);
-    font-size: 24px;
-    width: 30%;
-    padding-left: 35%;
+    font-size: 26px;
+    padding-top: 5%;
+    width: 90%;
+    text-align: left;
     padding-bottom: 5%;
-    ;
 
 }
 
@@ -180,15 +184,13 @@ a:hover {
 
 .history-title {
     font-family: 'Newsreader', serif;
-    font-size: 3vw;
-    letter-spacing: 2px;
     color: goldenrod;
     text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    font-size: 3vw;
     text-align: center;
-    width: 50%;
-    padding-left: 25%;
-    padding-top: 3px;
-    padding-bottom: 1px;
 }
 
 
@@ -196,19 +198,22 @@ a:hover {
     font-family: 'Poppins', serif;
     color: rgb(34, 34, 34);
     font-size: 26px;
-    padding-top: 5%;
-    width: 70%;
-    padding-left: 15%;
+    padding-top: 10%;
+    width: 100%;
+    text-align: left;
+    padding-top: 10%;
+    padding-bottom: 5%;
 }
 
 
 /* social media links */
 
 
-.social-websites>li {
+.social-websites > li {
     display: inline-block;
-    letter-spacing: 44px;
+    letter-spacing: 42px;
     padding-top: 10px;
+    padding-right: 12%;
 }
 
 
@@ -245,7 +250,7 @@ a:hover {
     text-align: center;
     position: static;
     width: 100%;
-    height: 350px;
+    height: 150px;
 }
 
 /* Newsletter form styling */
@@ -253,6 +258,9 @@ a:hover {
 #form-title {
     font-family: 'Newsreader', serif;
     letter-spacing: 2px;
+    font-size: 2rem;
+    margin-top: 5%;
+    margin-bottom: 4%;
     color: goldenrod;
     text-transform: uppercase;
     text-align: center;
@@ -261,6 +269,9 @@ a:hover {
 
 .form-paragraph {
     font-family: 'Poppins', serif;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    font-size: 1.5rem;
     letter-spacing: 2px;
     text-align: center;
     color: rgb(0, 0, 0);
@@ -271,13 +282,13 @@ a:hover {
     letter-spacing: 2px;
     color: rgb(255, 255, 255);
     height: 1px;
-    border: black;
+    border: goldenrod;
     border-style: solid;
-    border-width: 2px;
+    border-width: 7px;
     height: 22%;
     background-color: rgb(172, 172, 172);
     max-width: 50%;
-    margin-bottom: 10px;
+    margin-bottom: 5%;
 }
 
 .email-format {
@@ -285,15 +296,15 @@ a:hover {
 }
 
 #fname {
-    height: 10px;
+    height: 15px;
 }
 
 #lname {
-    height: 10px;
+    height: 15px;
 }
 
 #email {
-    height: 10px;
+    height: 15px;
     width: fit-content;
 }
 
@@ -318,28 +329,29 @@ a:hover {
 /* newsletter styling* */
 
 #newsletter-title {
-    font-family: 'Newsletter', serif;
-    font-size: 150px;
-    text-align: center;
+    font-family: 'Newsreader', serif;
     color: goldenrod;
-    padding-right: 50px;
-    margin-right: 23%;
-    margin-left: 20%;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    font-size: 4vw;
+    text-align: center;
 }
 
 #newsletter-paragraph {
     font-family: 'Poppins', serif;
-    color: rgb(0, 0, 0);
+    color: rgb(34, 34, 34);
+    font-size: 26px;
     width: 50%;
-    padding-left: 25%;
-    padding-bottom: 50px;
-    letter-spacing: 2px;
-    font-size: 30px;
+    text-align: left;
+    padding-bottom: 10%;
 }
 
 .newsletter-video {
     height: 30rem;
     width: 50rem;
+    padding-bottom: 15%;
     margin: 2vh auto;
 }
 
@@ -353,7 +365,7 @@ a:hover {
     }
 
     .nav-image {
-        width: 108%;
+        width: 108%
     }
 
 
@@ -365,7 +377,6 @@ a:hover {
         font-size: 5vw;
         padding-top: 5%;
         padding-bottom: 5%;
-        padding-left: 6%;
     }
 
     .home-paragraph {
@@ -378,8 +389,7 @@ a:hover {
 
     .buddhist-overview-image {
         height: 400px;
-        width: 400px;
-        margin-right: 25%;
+        margin-left: 5%;
     }
 
 
@@ -399,7 +409,7 @@ a:hover {
     .history-title {
         font-size: 5vw;
         width: 50%;
-        padding-right: 15%;
+        padding-right: 10%;
         padding-top: 5%;
         padding-bottom: 1%;
     }
@@ -415,8 +425,7 @@ a:hover {
     .precept-title {
         padding-top: 5%;
         font-size: 5vw;
-        padding-right: 2%;
-        padding-bottom: 2%;
+        padding-bottom: 10%;
     }
 
     .precept-list-title {
@@ -466,7 +475,7 @@ a:hover {
     .form-details {
         max-width: 75%;
         margin-bottom: 30px;
-        margin-left: 12%
+        margin-right: 12%;
     }
 
     .form-paragraph {
@@ -573,14 +582,13 @@ a:hover {
         font-size: 6vw;
         padding-top: 5%;
         padding-bottom: 5%;
-        padding-right: 9%;
         text-align: center;
     }
 
     .buddhist-overview-image {
         height: 350px;
-        width: 350px;
-        margin-left: 18%;
+        margin-left: 1%;
+
     }
 
     .home-paragraph {
@@ -608,7 +616,6 @@ a:hover {
         font-size: 6vw;
         padding-top: 5%;
         padding-bottom: 5%;
-        padding-right: 25%;
         text-align: center;
     }
 
@@ -718,7 +725,7 @@ a:hover {
         height: 20rem;
         width: 35rem;
         padding-bottom: 10%;
-        padding-left: 1%;
+        padding-right: 3%;
     }
 }
 
@@ -738,6 +745,12 @@ a:hover {
         font-size: 0.6rem;
     }
 
+    #title h1 {
+        margin-left: 10px;
+    }
+
+
+
     #home-title {
         font-size: 7vw;
         padding-top: 10%;
@@ -747,8 +760,9 @@ a:hover {
     }
 
     .buddhist-overview-image {
-        height: 250px;
-        width: 250px;
+        background-image: url('../assets/images/buddhas-sitting-in-row-2.jpeg');
+        height: 200px;
+        width: 300px;
         margin-left: 2%;
     }
 
@@ -792,14 +806,14 @@ a:hover {
 
     .fa-om {
         padding-bottom: 10%;
-    }
-
-    .fa-dharmachakra {
-        padding-right: 33%;
-        margin-right: 9%
-    }
-
-
+     }
+ 
+     .fa-dharmachakra {
+         padding-right: 33%;
+         margin-right: 9%
+     }
+ 
+ 
 
     .precepts-paragraph {
         font-size: 1rem;
@@ -809,8 +823,9 @@ a:hover {
 
 
     #copyright {
+        padding-right: 30%;
+        padding-top: 1%;
         font-size: 0.7rem;
-        margin-right: 7%;
     }
 
 
@@ -825,9 +840,15 @@ a:hover {
         padding-top: 5%;
         margin-left: 5%;
         margin-left: 7%;
+    
     }
 
+    .social-websites > li {
+        display: inline-block;
+        letter-spacing: 14px;
+    }
 
+    
 
     #form-title {
         font-size: 1rem;
@@ -845,6 +866,7 @@ a:hover {
         max-width: 100%;
         margin-bottom: 30px;
         margin-left: 1%;
+        margin-right: 1%;
     }
 
 
