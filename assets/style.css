@@ -271,9 +271,16 @@ a:hover {
     letter-spacing: 2px;
     color: rgb(255, 255, 255);
     height: 1px;
-
+    border: black;
+    border-style: solid;
+    border-width: 2px;
+    height: 22%;
+    background-color: rgb(172, 172, 172);
+    max-width: 50%;
+    margin-bottom: 10px;
 }
-.email-format{
+
+.email-format {
     display: flex;
 }
 
@@ -305,27 +312,19 @@ a:hover {
 
 .button:hover {
     background-color: goldenrod;
-    color:goldenrod;
+    color: goldenrod;
 }
 
 /* newsletter styling* */
-
-#newsletter-image {
-    background-image: url('../assets/images/sky.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 #newsletter-title {
     font-family: 'Newsletter', serif;
     font-size: 150px;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: goldenrod;
     padding-right: 50px;
     margin-right: 23%;
     margin-left: 20%;
-    ;
-    outline-style: solid;
 }
 
 #newsletter-paragraph {
@@ -337,8 +336,11 @@ a:hover {
     letter-spacing: 2px;
     font-size: 30px;
 }
+
 .newsletter-video {
-    text-align: center;
+    height: 30rem;
+    width: 50rem;
+    margin: 2vh auto;
 }
 
 /* media queries for desktop */
@@ -347,123 +349,370 @@ a:hover {
 
     .nav-image {
         min-height: 200px;
+        width: 108%;
     }
 
     #title h1 {
         padding-top: 1%;
     }
 
+    #nav-menu li {
+        padding-right: 30px;
+        padding-top: 1px;
+        font-size: 1.8rem;
+    }
+
     #home-title {
         font-size: 5vw;
-        padding-left: 10%; 
+        padding-left: 10%;
         padding-top: 5%;
         padding-bottom: 5%;
     }
 
     .home-paragraph {
-        font-size: 22px;
+        font-size: 1.4rem;
         padding-top: 10%;
-        width: 80%;
-        padding-left: 15%;
+        width: 100%;
+        padding-left: 7%;
         text-align: left;
     }
-    
+
     .buddhist-overview-image {
-        background-image: url('../assets/images/buddhas-sitting-in-row.jpeg');
         height: 450px;
         width: 450px;
-        margin-right: 21%
-     }
-
-     #home-video {
-        height: 30rem;
-        width: 40rem;
-        padding-bottom: 10%;
+        margin-right: 21%;
     }
 
+    #home-video {
+        height: 30rem;
+        width: 50rem;
+        padding-bottom: 15%;
+        padding-left: none;
+    }
 
-     .container {
+    .container {
         width: 90%;
         padding-right: 18%;
         padding-left: none;
     }
 
+    .history-title {
+        font-size: 5vw;
+        width: 50%;
+        padding-left: 8%;
+        padding-top: 5%;
+        padding-bottom: 1%;
+    }
+
+    .history-paragraph {
+        font-size: 1.3rem;
+        padding-top: 5%;
+        width: 100%;
+        text-align: left;
+        padding-left: 5%;
+    }
+
+    .precept-title {
+        padding-top: 5%;
+        font-size: 5vw;
+        padding-right: 2%;
+        padding-bottom: 2%;
+    }
+
+    .precept-list-title {
+        font-size: 3vw;
+        padding-top: 50px;
+        padding-bottom: 3%;
+        padding-left: 0;
+    }
+
+    .precepts-paragraph {
+        font-size: 1.3rem;
+        width: 90%;
+        padding-left: 2%;
+        padding-bottom: 5%;
+    }
+
+
     .main-footer {
         background-color: black;
         position: absolute;
-        width: 100%;
+        width: 108%;
         height: 70px;
         padding-bottom: 7%;
     }
 
+    .social-websites {
+        font-size: 230%;
+        padding-top: 4%;
+        margin-right: 5%;
+    }
+
+
     .form-details {
-        border: black;
+        border: #b78400;
         border-style: solid;
         border-width: 2px;
         height: 22%;
-        color: rgb(0, 0, 0);
-        max-width: 80%;
-        margin-bottom: 10px;
+        background-color: rgb(172, 172, 172);
+        max-width: 70%;
+        margin-bottom: 30px;
+        margin-left: 15%
     }
+
+    .form-paragraph {
+        letter-spacing: 2px;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        padding-bottom: 1%;
+        margin-right: 2%
+    }
+
 
     #form-title {
-        padding-bottom: 2%;
+        padding-bottom: 3%;
+        margin-right: 2%
     }
 
-    .social-websites {
-        font-size: 250%;
-        padding-top: 4%;
-        margin-left: 4%;
-    }
 
     .form-format {
         display: flex;
         justify-content: space-evenly;
         margin: 1em;
-        padding: 10%;
+        padding-right: 1%;
         padding-top: 10px;
         padding-bottom: 10px;
     }
-    .email-format{
-        display: flex;   
-        margin: 1em;
+
+    .email-format {
+        display: flex;
         padding-top: 10px;
         padding-bottom: 10px;
-        padding-left: 0%;
+        padding-left: 20%;
         padding-right: 27%;
     }
-    
+
     #email {
         justify-content: left;
         height: 20px;
-        margin: 0%;
-        margin-left: 0%;
-        
     }
 
     #fname {
         height: 20px;
+        width: 28%;
     }
-    
+
     #lname {
         height: 20px;
+        width: 28%;
     }
 
+    .button {
+        transition-duration: 0.2s;
+        margin: 19px;
+        font-family: 'Poppins', serif;
+        font-size: 1.4rem;
+        background-color: goldenrod;
+        padding: 15px 37px;
+        border-radius: 50%;
+        margin-right: 5%;
+    }
+
+    #copyright {
+        padding-right: 9%;
+    }
+
+
+    #newsletter-title {
+        font-size: 7vw;
+        color: goldenrod;
+        padding-right: 0;
+        padding-top: 10%;
+        margin-right: 25%;
+        margin-left: 20%
+    }
+
+    #newsletter-paragraph {
+        font-size: 1.3rem;
+        padding-top: 8%;
+        padding-bottom: 8%;
+        width: 70%;
+        padding-left: 0;
+        text-align: left;
+    }
+
+
+    .newsletter-video {
+        height: 30rem;
+        width: 50rem;
+        padding-bottom: 15%;
+        padding-left: none;
+    }
 }
 
-/* media queries for small tablet */
+/* media queries for tablet */
 
-@media screen and (max-width: 720px) 
-{
+@media screen and (max-width: 720px) {
+
+    #nav-menu li {
+        padding-right: 10px;
+        margin-left: 2%;
+        padding-top: 3px;
+        font-size: 1.5rem;
+    }
+
+    #home-title {
+        font-size: 6vw;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        padding-right: 10%;
+        text-align: center;
+    }
+
     .buddhist-overview-image {
-        height: 300px;
-        width: 300px;
+        height: 350px;
+        width: 350px;
+        margin-right: 20%;
+    }
+
+    .home-paragraph {
+        font-size: 1.2rem;
+        padding-top: 10%;
+        padding-left: 5%;
+        text-align: left;
+    }
+
+    .container {
+        width: 80%;
+        padding-right: 2%;
+        padding-left: none;
     }
 
 
+    #home-video {
+        height: 20rem;
+        width: 35rem;
+        padding-bottom: 10%;
+        padding-left: 1%;
+    }
+
+    .history-title {
+        font-size: 6vw;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        padding-right: 25%;
+        text-align: center;
+    }
+
+    .history-paragraph {
+        font-size: 1.2rem;
+        width: 100%;
+        text-align: left;
+        padding-left: 5%;
+    }
+
+    .precept-title {
+        padding-top: 5%;
+        font-size: 6vw;
+        padding-right: 2%;
+        padding-bottom: 9%;
+        text-align: center;
+    }
+
+    .fa-om {
+        padding-left: 43%;
+        padding-top: 3%;
+    }
+
+    .fa-dharmachakra {
+        padding-right: 43%;
+        padding-top: 3%
+    }
+
+
+    .precept-list-title {
+        font-size: 3.1vw;
+        padding-top: 10%;
+    }
+
+    .precepts-paragraph {
+        font-size: 1.2rem;
+        width: 90%;
+        padding-left: 2%;
+        padding-bottom: 15%;
+        text-align: left
+    }
+
+
+    #email {
+        justify-content: left;
+        height: 15px;
+        width: 50%;
+    }
+
+    #fname {
+        height: 15px;
+        width: 25%;
+    }
+
+    #lname {
+        height: 15px;
+        width: 25%;
+    }
+
+    .button {
+        margin: 19px;
+        font-size: 1.1rem;
+        padding: 10px 27px;
+        border-radius: 50%;
+        margin-right: 5%;
+        margin-top: -1%;
+        margin-bottom: 2%;
+        margin-bottom: 1%;
+    }
+
+    .main-footer {
+        width: 104%;
+        height: 90px;
+    }
+
+    .social-websites {
+        font-size: 200%;
+        padding-top: 5%;
+        margin-left: 5%;
+    }
+
+
+    #copyright {
+        padding-right: 5%;
+        padding-top: 1%;
+        font-size: 0.8rem;
+    }
+
+    #newsletter-title {
+        padding-top: 5%;
+        font-size: 7vw;
+        padding-top: 13%;
+        padding-right: 1%;
+        padding-bottom: 2%;
+        text-align: center;
+    }
+
+    #newsletter-paragraph {
+        font-size: 1.2rem;
+        width: 90%;
+        text-align: left;
+        padding-left: 5%;
+        padding-top: 5%;
+    }
+
+    .newsletter-video {
+        height: 20rem;
+        width: 35rem;
+        padding-bottom: 10%;
+        padding-left: 1%;
+    }
+
+
+
 }
-
-
-
-
-
