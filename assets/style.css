@@ -347,59 +347,59 @@ a:hover {
 
 @media screen and (max-width: 1024px) {
 
+    #nav-menu li {
+        padding-top: 1px;
+        font-size: 1.8rem;
+    }
+
     .nav-image {
-        min-height: 200px;
         width: 108%;
     }
+
 
     #title h1 {
         padding-top: 1%;
     }
 
-    #nav-menu li {
-        padding-right: 30px;
-        padding-top: 1px;
-        font-size: 1.8rem;
-    }
-
     #home-title {
         font-size: 5vw;
-        padding-left: 10%;
         padding-top: 5%;
         padding-bottom: 5%;
+        padding-left: 6%;
     }
 
     .home-paragraph {
         font-size: 1.4rem;
         padding-top: 10%;
-        width: 100%;
+        width: 95%;
         padding-left: 7%;
         text-align: left;
     }
 
     .buddhist-overview-image {
-        height: 450px;
-        width: 450px;
-        margin-right: 21%;
+        height: 400px;
+        width: 400px;
+        margin-right: 25%;
     }
+
 
     #home-video {
         height: 30rem;
         width: 50rem;
-        padding-bottom: 15%;
-        padding-left: none;
+        padding-bottom: 7%;
+        padding-left: 4%;
     }
 
     .container {
         width: 90%;
-        padding-right: 18%;
         padding-left: none;
     }
+
 
     .history-title {
         font-size: 5vw;
         width: 50%;
-        padding-left: 8%;
+        padding-right: 15%;
         padding-top: 5%;
         padding-bottom: 1%;
     }
@@ -407,7 +407,7 @@ a:hover {
     .history-paragraph {
         font-size: 1.3rem;
         padding-top: 5%;
-        width: 100%;
+        width: 95%;
         text-align: left;
         padding-left: 5%;
     }
@@ -421,16 +421,30 @@ a:hover {
 
     .precept-list-title {
         font-size: 3vw;
-        padding-top: 50px;
-        padding-bottom: 3%;
+        padding-top: 10%;
+        padding-bottom: 2%;
         padding-left: 0;
     }
+
+    .fa-om {
+        float: left;
+        padding-left: 40%;
+
+    }
+
+    .fa-dharmachakra {
+        float: right;
+        display: block;
+        padding-right: 40%;
+    }
+
 
     .precepts-paragraph {
         font-size: 1.3rem;
         width: 90%;
         padding-left: 2%;
         padding-bottom: 5%;
+        text-align: left;
     }
 
 
@@ -438,40 +452,33 @@ a:hover {
         background-color: black;
         position: absolute;
         width: 108%;
-        height: 70px;
+        height: 75px;
         padding-bottom: 7%;
     }
 
     .social-websites {
-        font-size: 230%;
+        font-size: 240%;
         padding-top: 4%;
-        margin-right: 5%;
+        margin-right: 3%;
     }
 
 
     .form-details {
-        border: #b78400;
-        border-style: solid;
-        border-width: 2px;
-        height: 22%;
-        background-color: rgb(172, 172, 172);
-        max-width: 70%;
+        max-width: 75%;
         margin-bottom: 30px;
-        margin-left: 15%
+        margin-left: 12%
     }
 
     .form-paragraph {
         letter-spacing: 2px;
-        text-align: center;
         color: rgb(0, 0, 0);
-        padding-bottom: 1%;
-        margin-right: 2%
+        padding-bottom: 2%;
     }
 
 
     #form-title {
-        padding-bottom: 3%;
-        margin-right: 2%
+        padding-bottom: 5%;
+        margin-left: 1%;
     }
 
 
@@ -517,6 +524,7 @@ a:hover {
         border-radius: 50%;
         margin-right: 5%;
     }
+
 
     #copyright {
         padding-right: 9%;
@@ -565,14 +573,14 @@ a:hover {
         font-size: 6vw;
         padding-top: 5%;
         padding-bottom: 5%;
-        padding-right: 10%;
+        padding-right: 9%;
         text-align: center;
     }
 
     .buddhist-overview-image {
         height: 350px;
         width: 350px;
-        margin-right: 20%;
+        margin-left: 18%;
     }
 
     .home-paragraph {
@@ -712,7 +720,178 @@ a:hover {
         padding-bottom: 10%;
         padding-left: 1%;
     }
+}
 
 
+/*media query for phone*/
+
+@media screen and (max-width: 320px) {
+
+    #title h1 {
+        font-size: 1.3rem
+    }
+
+    #nav-menu li {
+        padding-right: 7px;
+        margin-left: 3%;
+        padding-top: 5px;
+        font-size: 0.6rem;
+    }
+
+    #home-title {
+        font-size: 7vw;
+        padding-top: 10%;
+        padding-bottom: 5%;
+        padding-left: 10%;
+        text-align: center;
+    }
+
+    .buddhist-overview-image {
+        height: 250px;
+        width: 250px;
+        margin-left: 2%;
+    }
+
+    .home-paragraph {
+        font-size: 1rem;
+        padding-top: 15%;
+    }
+
+    #home-video {
+        height: 15rem;
+        width: 18rem;
+        padding-bottom: 10%;
+        margin-right: 5%;
+    }
+
+    .history-title {
+        font-size: 7vw;
+        padding-top: 10%;
+        padding-bottom: 5%;
+        padding-left: 10%;
+        text-align: center;
+    }
+
+    .history-paragraph {
+        font-size: 1rem;
+        width: 100%;
+        text-align: left;
+    }
+
+    .precept-title {
+        font-size: 7vw;
+        padding-top: 10%;
+        padding-bottom: 5%;
+        padding-left: 1%;
+        text-align: center;
+    }
+
+    .precept-list-title {
+        font-size: 1rem;
+    }
+
+    .fa-om {
+        padding-bottom: 10%;
+    }
+
+    .fa-dharmachakra {
+        padding-right: 33%;
+        margin-right: 9%
+    }
+
+
+
+    .precepts-paragraph {
+        font-size: 1rem;
+        width: 90%;
+        text-align: left;
+    }
+
+
+    #copyright {
+        font-size: 0.7rem;
+        margin-right: 7%;
+    }
+
+
+    .main-footer {
+        width: 109%;
+        height: 100px;
+    }
+
+
+    .social-websites {
+        font-size: 1rem;
+        padding-top: 5%;
+        margin-left: 5%;
+        margin-left: 7%;
+    }
+
+
+
+    #form-title {
+        font-size: 1rem;
+        padding-bottom: 6%;
+    }
+
+    .form-paragraph {
+        letter-spacing: 1px;
+        padding-bottom: 1%;
+        font-size: 0.8rem;
+    }
+
+
+    .form-details {
+        max-width: 100%;
+        margin-bottom: 30px;
+        margin-left: 1%;
+    }
+
+
+    .email-format {
+        display: flex;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        padding-left: 5%;
+        padding-right: 10%;
+    }
+
+    #email {
+        justify-content: left;
+        height: 15px;
+        width: 50%;
+    }
+
+    #fname {
+        height: 15px;
+        width: 50%;
+    }
+
+    #lname {
+        height: 15px;
+        width: 50%;
+    }
+
+    .newsletter-video {
+        height: 15rem;
+        width: 18rem;
+        padding-bottom: 47%;
+        margin-right: 5%;
+    }
+
+    #newsletter-paragraph {
+        font-size: 1rem;
+        width: 90%;
+        text-align: left;
+        padding-top: 15%;
+        padding-bottom: 20%;
+    }
+
+    #newsletter-title {
+        font-size: 10vw;
+        padding-top: 25%;
+        letter-spacing: 2px;
+        text-align: center;
+    }
 
 }
