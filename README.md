@@ -1,59 +1,137 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Buddha the enlightended one
+Buddha The Enlightened One is a site that intends to spread knowledge and appreciation of another culture to curious minds in search of a fresh new outlook. It begins with a brief overview of Buddhism followed by the story that is believed to be the origin of the faith. Finally, the five rules in which Buddhism was built on are explained. This site is targeted to people of all ages who are plagued by curiosity and looking to find information on the origins of an ancient religion. Buddha The Enlightened One will give the user a condensed lesson on the cultures that have spanned millenniums.
 
-Welcome Diabekki,
+![Image of Am I Responsive](assets/images/AmIResponsive.JPG)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+## Features
+This website features a sweet and easy way for beginners to learn about buddhism, 
+the pages holding information are easy to read and retain. 
+Many other websites while holding informtion tend to really try to focus on trying to teach while being very biased through flowery language, this website does not want to a push a decision on anyone but acts as a stepping stone if people want to find their own path.
 
-## Gitpod Reminders
+## Wireframe 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+![Image wireframe heading](assets/images/Wireframe-1.JPG)
+![Image wireframe heading 2](assets/images/five-precepts-wireframe.JPG)
+![Image wireframe phone](assets/images/wireframe-phone.JPG)
 
-A blue button should appear to click: _Make Public_,
+**Existing Features**
+ **Navigation Bar**
+  
+  - Navigation bar on all four pages, link to home page from logo, History page, Precepts page and finally the Sign up page. 
+  - the nav links make it very easy to navigate making the website very user friendly.
 
-Another blue button should appear to click: _Open Browser_.
+  ![Image of Navigation bar](assets/images/navbar.JPG)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+ **Main header image**
+  - The image of of a serene photograph of a Buddhist statue, the image is very soothing to look at and sets the vibe of the webpage.
 
-A blue button should appear to click: _Make Public_,
+ ![Image of Buddah statue](assets/images/buddha-nav-image.jpg)
 
-Another blue button should appear to click: _Open Browser_.
+ **Buddhism summery title and image**
+  - This is image and title from the home page give off a sense of symetry in both colour and theme whe compared to the main nav image.
+  - This is an easy way for someone to understand the theme and story origin even with basic or no prior knowledge of Buddha and Buddhism.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+![Image of buddha statues sitting in a row](assets/images/Home-Title.JPG) 
 
-To log into the Heroku toolbelt CLI:
+ **Newsletter sign up prompt**
+  - This is a welcoming message to ask the viewer to sign up for an email newsletter.
+  - The wording is written to be inviting and give the user a sense of communnity if they choose to sign up.
+  - The second image is of the sign up form itself, its user friendly east to navigate. 
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
+   ![Image of sign up message](assets/images/inviting-email-signup.JPG)
+   ![Image of sign up form](assets/images/Sign-up-form.JPG)
 
-## Updates Since The Instructional Video
+ **Footer, Social  Media links and information link** 
+  -The footer consists of high contrast colours, white against black for a sleek vibe yes still in sync with the websites theme.
+  -The Social media links are white for easy seeing access and each link goes to a page specifically about Buddhism.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+   ![Image of website footer with social media links](assets/images/footer.JPG)
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+**History**
+  -This page gives a detailed explanation of Siddhartha Gautama to became known as Buddha.
+  - It is concise but still explains his life from birth to enlightenment, an interesting read for the user.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+  ![Image of snippet taken from paragraph of Siddhartha](assets/images/Siddhartha.JPG)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+**Precepts** 
+  - This page is a more in depth look at the five precepts, what they mean, why are followed and the result of following these rules.
+  - The icons used were the "om" symbol and the dharmachakra, the symbols break up the paggages while also helping the entire page keep a flow and theme.
+ 
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+ ![Image of snippet taken from Precepts page](assets/images/precepts.JPG)
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+ **Thank you newsletter page** 
+   - The form at the end of each page, when the details are added the user is brought to a thank you page with information to check their email for upcoming news about the newsletter.
+   -The Buddah text in the upper left brings the user back to the home page for easy navigation.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+   ![Image of snippet taken thank you page](assets/images/thank-you.JPG)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+  **Features left to add**
+ - videos with more information about Buddhism
+ - meet ups for people to meet up for meditation or walks
+ - links to local and online seminars from monks for users to learn more
+ - to go through more Media queries to make the website even more accessible to more users. 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+ ## Testing
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+- I have conducted many tests to ensure the website works well, I have had to change the nav bar muliple times to make it sit properly which posed quite a challenge at first.
 
----
+- I have checked the nav links work and bring the user to the right designated page.
 
-Happy coding!
+- I have checked that all social media links are working fully and bring the user to the exact area specified.
+
+- I have checked that the fixed background image on the home page does not stretch when scrolling.
+
+- I have checked that the sign up form works and brings the user to the newsletter thank you page.
+
+- I have checked the submit button css style works when clicking submit.
+
+Getting the CSS to work perfectly proved to be a good learning curve as I had chosen not to use bootstrap to try challenge myself building everything from scratch.
+
+the resolutions I have tested the website on are as follows 
+- Desktop screen
+- 1024px width
+- 720px width
+- 320px width 
+
+### Validator Testing 
+- HTML
+  - No error found when ran through W3C validator https://validator.w3.org/
+
+- CSS 
+  - No errors found when tested on Jigsaw https://jigsaw.w3.org/css-validator/
+
+  ## Deployment 
+
+- My site was deployed through GIitHub pages
+  - I navigated through the GitHub respository 
+  - Clicked on the seetings tab
+  - From the drop down selected the master branch 
+  - When the master branch was selected the page was automatically refreshed with a message letting me know my project has been deployed 
+
+  The live link to my webiste can be found here - https://diabekki.github.io/Buddha-the-enlightened-one/index.html
+
+  ## Credits
+
+- The text for the home page was loosely taken from wikipedia https://en.wikipedia.org/wiki/Buddhism
+- Instructions for CSS I found difficult was taken from w3schools https://www.w3schools.com/css/default.asp
+- Details about the five precepts were taken from buddho https://buddho.org/buddhism-and-morality-the-five-precept/
+- Information about Siddhartha was taken from https://artsandculture.google.com/exhibit/indian-buddhist-art-indian-museum-kolkata/sQKy9A-7JPwzJQ?hl=en
+- Icons in the Precepts page were taken from Font Awesome https://fontawesome.com/
+- Fonts used throughout website was taken from Google Fonts https://fonts.google.com/
+
+
+## Media 
+- Image media was taken from Pexels 
+
+## Acknowledgements
+
+I want to thank my Fiance who kept pushing me to keep bettering myself and not letting me give up, fellow students for letting me vent frustrations when I felt overwhelmed with the work,
+Kasia who keeps up our morale and always checks to see if we are doing okay and finally my mentor for guiding me and showing me that even through the worry I can still showcase something I'm proud of. 
+
+
+
+
+
